@@ -1,0 +1,16 @@
+{application, lucka10,
+ [{description, "Program developed for Advent of Code"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {webbing_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainer, "Robert Lasu"},
+  {licenses, ["Apache-2.0"]},
+  {links, [{"Github", "https://github.com/thetelefon/lucka10.git"},
+           {"Advent of Code", "https://adventofcode.com/"}]}
+ ]}.
