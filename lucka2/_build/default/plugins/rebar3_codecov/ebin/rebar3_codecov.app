@@ -1,0 +1,10 @@
+{application,rebar3_codecov,
+             [{description,"Rebar3 plugin converting .coverdata files to codecov compatible JSON"},
+              {vsn,"0.6.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib,jsone]},
+              {env,[]},
+              {modules,[rebar3_codecov,rebar3_codecov_prv]},
+              {maintainers,["ESL"]},
+              {licenses,["MIT"]},
+              {links,[{"Github","https://github.com/esl/rebar3_codecov"}]}]}.

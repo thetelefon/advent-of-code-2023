@@ -1,0 +1,12 @@
+{application,lucka2,
+             [{description,"A OTP library written in pure Erlang"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{webbing_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[lucka2]},
+              {maintainer,"Robert Lasu"},
+              {licenses,["Apache-2.0"]},
+              {links,[{"Github",
+                       "https://github.com/thetelefon/lucka2.git"}]}]}.
